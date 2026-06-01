@@ -31,7 +31,7 @@ public class ClientSoundHandler {
                             0.5f,
                             pitch
                     );
-                    mc.player.sendSystemMessage(net.minecraft.network.chat.Component.literal("Yellow scary!"));
+                    //mc.player.sendSystemMessage(net.minecraft.network.chat.Component.literal("Yellow scary!"));
                     soundCooldown = 500 + mc.level.random.nextInt(500);
                 }
             }
